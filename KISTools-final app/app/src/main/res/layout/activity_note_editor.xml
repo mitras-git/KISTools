@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD5D5"
+    android:orientation="vertical"
+    tools:context=".NoteEditor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/titlepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="28dp"
+            android:text="Note Edit"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/bgitemschedule"
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveNote"
+        android:onClick="saveNote"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"
+        android:text="Save"
+        android:textColor="#FFF"
+        android:background="@drawable/bgbtnnew"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+
+</LinearLayout>

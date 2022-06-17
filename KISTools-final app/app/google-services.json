@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221348625602",
+    "project_id": "scheduleon-a7a49",
+    "storage_bucket": "scheduleon-a7a49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221348625602:android:8af1262c377cadf5358f5b",
+        "android_client_info": {
+          "package_name": "com.kis.scheduleon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221348625602-avornapojel0b5a6flcesl88cq7o7cph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFdtvkTz7sh-7mFJuCWnF841EvCnJDqX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221348625602-avornapojel0b5a6flcesl88cq7o7cph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
